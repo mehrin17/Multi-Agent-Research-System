@@ -13,7 +13,7 @@ ProgressCallback = Callable[[str], None]
 def _evidence_block(sources: list[dict[str, str]]) -> str:
     blocks = []
     for index, source in enumerate(sources, start=1):
-        body = source["text"] or source["snippet"] or "No readable page text or search snippet was available."
+        body = (source.get("text") or source.get["snippet",""))[:2500] or "No readable page text or search snippet was available."
         status = "" if source["text"] else f" (page extraction failed: {source['read_error'] or 'using search snippet only'})"
         blocks.append(f"[S{index}] {source['title']} — {source['url']}{status}\n{body}")
     return "\n\n".join(blocks)
