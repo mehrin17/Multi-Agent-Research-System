@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Multi-Agent Research System">
+  <rect width="256" height="256" rx="52" fill="#12304A"/>
+  <circle cx="108" cy="108" r="53" fill="none" stroke="#F5FAFF" stroke-width="15"/>
+  <path d="m147 147 46 46" fill="none" stroke="#F5FAFF" stroke-width="17" stroke-linecap="round"/>
+  <circle cx="108" cy="108" r="9" fill="#61C5B5"/>
+  <path d="M108 55v-13M55 108H42m66 66v-13m66-53h-13" stroke="#61C5B5" stroke-width="7" stroke-linecap="round"/>
+</svg>

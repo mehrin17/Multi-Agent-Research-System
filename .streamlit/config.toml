@@ -1,0 +1,3 @@
+[server]
+# Streamlit exposes an unauthenticated health check at /_stcore/health.
+headless = true
